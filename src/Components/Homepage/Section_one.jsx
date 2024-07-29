@@ -17,7 +17,6 @@ function Section_one() {
   };
   return (
     <div className="w-full h-screen flex flex-col items-center justify-between relative">
-
       <video
         src="/vid.mp4"
         className=" w-full h-full object-cover"
@@ -26,7 +25,9 @@ function Section_one() {
         autoPlay
       ></video>
       <div className=" w-full h-full absolute top-0 left-0 flex flex-col justify-between">
-        <Navbar />
+        <div className=" block md:hidden">
+          <Navbar />
+        </div>
         <div className=" hidden md:block">
           <div className=" w-full h-32 px-10 flex justify-between items-center">
             <h1 className=" text-3xl font-semibold">meedAI</h1>

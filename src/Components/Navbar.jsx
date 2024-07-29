@@ -142,24 +142,7 @@ function Navbar() {
           <Link href={"/AITalent"}>AI Talent</Link>
           <Link href={"/AIConsulting"}>AI Consulting</Link>
           <Link href={"/AIEvents"}>AI Events</Link>
-          {/* <h1 className="cursor-pointer" onClick={handleClick}>
-            Solutions
-          </h1>
-          <Menu
-            anchorEl={anchorEl}
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
-          >
-            <MenuItem onClick={handleClose}>
-              <Link href={"/AITalent"}>AI Talent</Link>
-            </MenuItem>
-            <MenuItem onClick={handleClose}>
-              <Link href={"/AIConsulting"}>AI Consulting</Link>
-            </MenuItem>
-            <MenuItem onClick={handleClose}>
-              <Link href={"/AIEvents"}>AI Events</Link>
-            </MenuItem>
-          </Menu> */}
+         
           <Link href={"/about"} onClick={toggleMobileMenu}>
             <h1>Our story</h1>
           </Link>
